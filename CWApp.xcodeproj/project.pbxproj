@@ -7,13 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2DF121862010991F006EBDC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF121852010991F006EBDC4 /* AppDelegate.m */; };
 		2DF121892010991F006EBDC4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF121882010991F006EBDC4 /* ViewController.m */; };
 		2DF1218E2010991F006EBDC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DF1218D2010991F006EBDC4 /* Assets.xcassets */; };
 		2DF121912010991F006EBDC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DF1218F2010991F006EBDC4 /* LaunchScreen.storyboard */; };
 		2DF121942010991F006EBDC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF121932010991F006EBDC4 /* main.m */; };
 		2DF1219E2010991F006EBDC4 /* CWAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF1219D2010991F006EBDC4 /* CWAppTests.m */; };
 		2DF121A92010991F006EBDC4 /* CWAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF121A82010991F006EBDC4 /* CWAppUITests.m */; };
+		2DF121C22011B8ED006EBDC4 /* CWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF121C12011B8ED006EBDC4 /* CWBaseViewController.m */; };
+		2DF121C52011B914006EBDC4 /* CWBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF121C42011B914006EBDC4 /* CWBaseNavigationController.m */; };
+		2DF121C82011B93C006EBDC4 /* CWUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF121C72011B93C006EBDC4 /* CWUtils.m */; };
+		2DF121CC2011BA07006EBDC4 /* CWConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF121CB2011BA07006EBDC4 /* CWConstant.m */; };
+		2DF121D22011D05E006EBDC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF121D02011D05E006EBDC4 /* AppDelegate.m */; };
+		2DF121D52011D0BE006EBDC4 /* CWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF121D42011D0BE006EBDC4 /* CWNavigationController.m */; };
+		2DF121DB2011D164006EBDC4 /* CWBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF121DA2011D164006EBDC4 /* CWBaseTabBarController.m */; };
+		2DF121DE2011D184006EBDC4 /* CWTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF121DD2011D184006EBDC4 /* CWTabBarController.m */; };
+		2DF121E72011D47F006EBDC4 /* CWBaseHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF121E62011D47F006EBDC4 /* CWBaseHomeViewController.m */; };
+		2DF121F12011F683006EBDC4 /* CWPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF121F02011F683006EBDC4 /* CWPlaceHolder.m */; };
+		2DF121F42011F6A3006EBDC4 /* CWPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF121F22011F6A3006EBDC4 /* CWPlaceHolder.m */; };
+		2DF121F72011F6AC006EBDC4 /* CWPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF121F52011F6AC006EBDC4 /* CWPlaceHolder.m */; };
+		2DF122012011F6F3006EBDC4 /* CWPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF121FA2011F6F3006EBDC4 /* CWPlaceHolder.m */; };
+		2DF122022011F6F3006EBDC4 /* CWPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF121FD2011F6F3006EBDC4 /* CWPlaceHolder.m */; };
+		2DF122032011F6F3006EBDC4 /* CWPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF122002011F6F3006EBDC4 /* CWPlaceHolder.m */; };
+		2DF1220D2011F6FF006EBDC4 /* CWPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF122062011F6FF006EBDC4 /* CWPlaceHolder.m */; };
+		2DF1220E2011F6FF006EBDC4 /* CWPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF122092011F6FF006EBDC4 /* CWPlaceHolder.m */; };
+		2DF1220F2011F6FF006EBDC4 /* CWPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF1220C2011F6FF006EBDC4 /* CWPlaceHolder.m */; };
+		2DF122192011F707006EBDC4 /* CWPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF122122011F707006EBDC4 /* CWPlaceHolder.m */; };
+		2DF1221A2011F707006EBDC4 /* CWPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF122152011F707006EBDC4 /* CWPlaceHolder.m */; };
+		2DF1221B2011F707006EBDC4 /* CWPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF122182011F707006EBDC4 /* CWPlaceHolder.m */; };
+		2DF122252011F70F006EBDC4 /* CWPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF1221E2011F70F006EBDC4 /* CWPlaceHolder.m */; };
+		2DF122262011F70F006EBDC4 /* CWPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF122212011F70F006EBDC4 /* CWPlaceHolder.m */; };
+		2DF122272011F70F006EBDC4 /* CWPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF122242011F70F006EBDC4 /* CWPlaceHolder.m */; };
+		2DF1222A2011F750006EBDC4 /* CWPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF122292011F750006EBDC4 /* CWPlaceHolder.m */; };
+		2DF1222D2011F759006EBDC4 /* CWPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF1222C2011F759006EBDC4 /* CWPlaceHolder.m */; };
+		2DF122312011F762006EBDC4 /* CWPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF122302011F762006EBDC4 /* CWPlaceHolder.m */; };
+		2DF122342011F783006EBDC4 /* CWPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF122332011F783006EBDC4 /* CWPlaceHolder.m */; };
+		2DF122372011F78C006EBDC4 /* CWPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF122352011F78B006EBDC4 /* CWPlaceHolder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +63,6 @@
 
 /* Begin PBXFileReference section */
 		2DF121812010991F006EBDC4 /* CWApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CWApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2DF121842010991F006EBDC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		2DF121852010991F006EBDC4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2DF121872010991F006EBDC4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2DF121882010991F006EBDC4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2DF1218D2010991F006EBDC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +75,64 @@
 		2DF121A42010991F006EBDC4 /* CWAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CWAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DF121A82010991F006EBDC4 /* CWAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWAppUITests.m; sourceTree = "<group>"; };
 		2DF121AA2010991F006EBDC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DF121C02011B8ED006EBDC4 /* CWBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWBaseViewController.h; sourceTree = "<group>"; };
+		2DF121C12011B8ED006EBDC4 /* CWBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWBaseViewController.m; sourceTree = "<group>"; };
+		2DF121C32011B914006EBDC4 /* CWBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWBaseNavigationController.h; sourceTree = "<group>"; };
+		2DF121C42011B914006EBDC4 /* CWBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWBaseNavigationController.m; sourceTree = "<group>"; };
+		2DF121C62011B93C006EBDC4 /* CWUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWUtils.h; sourceTree = "<group>"; };
+		2DF121C72011B93C006EBDC4 /* CWUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWUtils.m; sourceTree = "<group>"; };
+		2DF121CA2011BA07006EBDC4 /* CWConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWConstant.h; sourceTree = "<group>"; };
+		2DF121CB2011BA07006EBDC4 /* CWConstant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWConstant.m; sourceTree = "<group>"; };
+		2DF121D02011D05E006EBDC4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2DF121D12011D05E006EBDC4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2DF121D32011D0BE006EBDC4 /* CWNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWNavigationController.h; sourceTree = "<group>"; };
+		2DF121D42011D0BE006EBDC4 /* CWNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWNavigationController.m; sourceTree = "<group>"; };
+		2DF121D92011D164006EBDC4 /* CWBaseTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWBaseTabBarController.h; sourceTree = "<group>"; };
+		2DF121DA2011D164006EBDC4 /* CWBaseTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWBaseTabBarController.m; sourceTree = "<group>"; };
+		2DF121DC2011D184006EBDC4 /* CWTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWTabBarController.h; sourceTree = "<group>"; };
+		2DF121DD2011D184006EBDC4 /* CWTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWTabBarController.m; sourceTree = "<group>"; };
+		2DF121E52011D47F006EBDC4 /* CWBaseHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWBaseHomeViewController.h; sourceTree = "<group>"; };
+		2DF121E62011D47F006EBDC4 /* CWBaseHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWBaseHomeViewController.m; sourceTree = "<group>"; };
+		2DF121EF2011F683006EBDC4 /* CWPlaceHolder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWPlaceHolder.h; sourceTree = "<group>"; };
+		2DF121F02011F683006EBDC4 /* CWPlaceHolder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWPlaceHolder.m; sourceTree = "<group>"; };
+		2DF121F22011F6A3006EBDC4 /* CWPlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWPlaceHolder.m; sourceTree = "<group>"; };
+		2DF121F32011F6A3006EBDC4 /* CWPlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWPlaceHolder.h; sourceTree = "<group>"; };
+		2DF121F52011F6AC006EBDC4 /* CWPlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWPlaceHolder.m; sourceTree = "<group>"; };
+		2DF121F62011F6AC006EBDC4 /* CWPlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWPlaceHolder.h; sourceTree = "<group>"; };
+		2DF121F92011F6F3006EBDC4 /* CWPlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWPlaceHolder.h; sourceTree = "<group>"; };
+		2DF121FA2011F6F3006EBDC4 /* CWPlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWPlaceHolder.m; sourceTree = "<group>"; };
+		2DF121FC2011F6F3006EBDC4 /* CWPlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWPlaceHolder.h; sourceTree = "<group>"; };
+		2DF121FD2011F6F3006EBDC4 /* CWPlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWPlaceHolder.m; sourceTree = "<group>"; };
+		2DF121FF2011F6F3006EBDC4 /* CWPlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWPlaceHolder.h; sourceTree = "<group>"; };
+		2DF122002011F6F3006EBDC4 /* CWPlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWPlaceHolder.m; sourceTree = "<group>"; };
+		2DF122052011F6FF006EBDC4 /* CWPlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWPlaceHolder.h; sourceTree = "<group>"; };
+		2DF122062011F6FF006EBDC4 /* CWPlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWPlaceHolder.m; sourceTree = "<group>"; };
+		2DF122082011F6FF006EBDC4 /* CWPlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWPlaceHolder.h; sourceTree = "<group>"; };
+		2DF122092011F6FF006EBDC4 /* CWPlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWPlaceHolder.m; sourceTree = "<group>"; };
+		2DF1220B2011F6FF006EBDC4 /* CWPlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWPlaceHolder.h; sourceTree = "<group>"; };
+		2DF1220C2011F6FF006EBDC4 /* CWPlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWPlaceHolder.m; sourceTree = "<group>"; };
+		2DF122112011F707006EBDC4 /* CWPlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWPlaceHolder.h; sourceTree = "<group>"; };
+		2DF122122011F707006EBDC4 /* CWPlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWPlaceHolder.m; sourceTree = "<group>"; };
+		2DF122142011F707006EBDC4 /* CWPlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWPlaceHolder.h; sourceTree = "<group>"; };
+		2DF122152011F707006EBDC4 /* CWPlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWPlaceHolder.m; sourceTree = "<group>"; };
+		2DF122172011F707006EBDC4 /* CWPlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWPlaceHolder.h; sourceTree = "<group>"; };
+		2DF122182011F707006EBDC4 /* CWPlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWPlaceHolder.m; sourceTree = "<group>"; };
+		2DF1221D2011F70F006EBDC4 /* CWPlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWPlaceHolder.h; sourceTree = "<group>"; };
+		2DF1221E2011F70F006EBDC4 /* CWPlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWPlaceHolder.m; sourceTree = "<group>"; };
+		2DF122202011F70F006EBDC4 /* CWPlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWPlaceHolder.h; sourceTree = "<group>"; };
+		2DF122212011F70F006EBDC4 /* CWPlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWPlaceHolder.m; sourceTree = "<group>"; };
+		2DF122232011F70F006EBDC4 /* CWPlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWPlaceHolder.h; sourceTree = "<group>"; };
+		2DF122242011F70F006EBDC4 /* CWPlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWPlaceHolder.m; sourceTree = "<group>"; };
+		2DF122282011F750006EBDC4 /* CWPlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWPlaceHolder.h; sourceTree = "<group>"; };
+		2DF122292011F750006EBDC4 /* CWPlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWPlaceHolder.m; sourceTree = "<group>"; };
+		2DF1222B2011F759006EBDC4 /* CWPlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWPlaceHolder.h; sourceTree = "<group>"; };
+		2DF1222C2011F759006EBDC4 /* CWPlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWPlaceHolder.m; sourceTree = "<group>"; };
+		2DF1222F2011F762006EBDC4 /* CWPlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWPlaceHolder.h; sourceTree = "<group>"; };
+		2DF122302011F762006EBDC4 /* CWPlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWPlaceHolder.m; sourceTree = "<group>"; };
+		2DF122322011F783006EBDC4 /* CWPlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWPlaceHolder.h; sourceTree = "<group>"; };
+		2DF122332011F783006EBDC4 /* CWPlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWPlaceHolder.m; sourceTree = "<group>"; };
+		2DF122352011F78B006EBDC4 /* CWPlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWPlaceHolder.m; sourceTree = "<group>"; };
+		2DF122362011F78B006EBDC4 /* CWPlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWPlaceHolder.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +183,11 @@
 		2DF121832010991F006EBDC4 /* CWApp */ = {
 			isa = PBXGroup;
 			children = (
+				2DF121CF2011CFF5006EBDC4 /* App */,
+				2DF121DF2011D1B4006EBDC4 /* Features */,
 				2DF121B620109C4F006EBDC4 /* Common */,
-				2DF121842010991F006EBDC4 /* AppDelegate.h */,
-				2DF121852010991F006EBDC4 /* AppDelegate.m */,
+				2DF121EC2011DA6D006EBDC4 /* Expand */,
+				2DF121EB2011DA04006EBDC4 /* Vendors */,
 				2DF121872010991F006EBDC4 /* ViewController.h */,
 				2DF121882010991F006EBDC4 /* ViewController.m */,
 				2DF1218D2010991F006EBDC4 /* Assets.xcassets */,
@@ -133,8 +219,302 @@
 		2DF121B620109C4F006EBDC4 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				2DF1222E2011F762006EBDC4 /* Model */,
+				2DF121C92011B9BD006EBDC4 /* Constant */,
+				2DF121BF2011B8D3006EBDC4 /* Base */,
+				2DF121BE2011B8D3006EBDC4 /* Utils */,
+				2DF121BC2011B8D3006EBDC4 /* View */,
+				2DF121BB2011B8D3006EBDC4 /* ViewController */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		2DF121BB2011B8D3006EBDC4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2DF1222B2011F759006EBDC4 /* CWPlaceHolder.h */,
+				2DF1222C2011F759006EBDC4 /* CWPlaceHolder.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2DF121BC2011B8D3006EBDC4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2DF122282011F750006EBDC4 /* CWPlaceHolder.h */,
+				2DF122292011F750006EBDC4 /* CWPlaceHolder.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2DF121BE2011B8D3006EBDC4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2DF121C62011B93C006EBDC4 /* CWUtils.h */,
+				2DF121C72011B93C006EBDC4 /* CWUtils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2DF121BF2011B8D3006EBDC4 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2DF121C02011B8ED006EBDC4 /* CWBaseViewController.h */,
+				2DF121C12011B8ED006EBDC4 /* CWBaseViewController.m */,
+				2DF121C32011B914006EBDC4 /* CWBaseNavigationController.h */,
+				2DF121C42011B914006EBDC4 /* CWBaseNavigationController.m */,
+				2DF121D92011D164006EBDC4 /* CWBaseTabBarController.h */,
+				2DF121DA2011D164006EBDC4 /* CWBaseTabBarController.m */,
+				2DF121E52011D47F006EBDC4 /* CWBaseHomeViewController.h */,
+				2DF121E62011D47F006EBDC4 /* CWBaseHomeViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2DF121C92011B9BD006EBDC4 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				2DF121CA2011BA07006EBDC4 /* CWConstant.h */,
+				2DF121CB2011BA07006EBDC4 /* CWConstant.m */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		2DF121CF2011CFF5006EBDC4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2DF121D12011D05E006EBDC4 /* AppDelegate.h */,
+				2DF121D02011D05E006EBDC4 /* AppDelegate.m */,
+				2DF121D32011D0BE006EBDC4 /* CWNavigationController.h */,
+				2DF121D42011D0BE006EBDC4 /* CWNavigationController.m */,
+				2DF121DC2011D184006EBDC4 /* CWTabBarController.h */,
+				2DF121DD2011D184006EBDC4 /* CWTabBarController.m */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		2DF121DF2011D1B4006EBDC4 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				2DF121E22011D29D006EBDC4 /* Home */,
+				2DF121E12011D20D006EBDC4 /* Quotes */,
+				2DF121E02011D1FF006EBDC4 /* Trade */,
+				2DF121E42011D33C006EBDC4 /* Finance */,
+				2DF121E32011D2CE006EBDC4 /* News */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		2DF121E02011D1FF006EBDC4 /* Trade */ = {
+			isa = PBXGroup;
+			children = (
+				2DF122072011F6FF006EBDC4 /* Model */,
+				2DF1220A2011F6FF006EBDC4 /* View */,
+				2DF122042011F6FF006EBDC4 /* ViewController */,
+			);
+			path = Trade;
+			sourceTree = "<group>";
+		};
+		2DF121E12011D20D006EBDC4 /* Quotes */ = {
+			isa = PBXGroup;
+			children = (
+				2DF121FB2011F6F3006EBDC4 /* Model */,
+				2DF121F82011F6F3006EBDC4 /* View */,
+				2DF121FE2011F6F3006EBDC4 /* ViewController */,
+			);
+			path = Quotes;
+			sourceTree = "<group>";
+		};
+		2DF121E22011D29D006EBDC4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2DF121E92011D9A7006EBDC4 /* Model */,
+				2DF121EA2011D9A7006EBDC4 /* View */,
+				2DF121E82011D9A7006EBDC4 /* ViewController */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2DF121E32011D2CE006EBDC4 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				2DF122222011F70F006EBDC4 /* Model */,
+				2DF1221C2011F70F006EBDC4 /* View */,
+				2DF1221F2011F70F006EBDC4 /* ViewController */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		2DF121E42011D33C006EBDC4 /* Finance */ = {
+			isa = PBXGroup;
+			children = (
+				2DF122132011F707006EBDC4 /* Model */,
+				2DF122102011F707006EBDC4 /* View */,
+				2DF122162011F707006EBDC4 /* ViewController */,
+			);
+			path = Finance;
+			sourceTree = "<group>";
+		};
+		2DF121E82011D9A7006EBDC4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2DF121F62011F6AC006EBDC4 /* CWPlaceHolder.h */,
+				2DF121F52011F6AC006EBDC4 /* CWPlaceHolder.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2DF121E92011D9A7006EBDC4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2DF121EF2011F683006EBDC4 /* CWPlaceHolder.h */,
+				2DF121F02011F683006EBDC4 /* CWPlaceHolder.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2DF121EA2011D9A7006EBDC4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2DF121F32011F6A3006EBDC4 /* CWPlaceHolder.h */,
+				2DF121F22011F6A3006EBDC4 /* CWPlaceHolder.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2DF121EB2011DA04006EBDC4 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				2DF122362011F78B006EBDC4 /* CWPlaceHolder.h */,
+				2DF122352011F78B006EBDC4 /* CWPlaceHolder.m */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		2DF121EC2011DA6D006EBDC4 /* Expand */ = {
+			isa = PBXGroup;
+			children = (
+				2DF122322011F783006EBDC4 /* CWPlaceHolder.h */,
+				2DF122332011F783006EBDC4 /* CWPlaceHolder.m */,
+			);
+			path = Expand;
+			sourceTree = "<group>";
+		};
+		2DF121F82011F6F3006EBDC4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2DF121F92011F6F3006EBDC4 /* CWPlaceHolder.h */,
+				2DF121FA2011F6F3006EBDC4 /* CWPlaceHolder.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2DF121FB2011F6F3006EBDC4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2DF121FC2011F6F3006EBDC4 /* CWPlaceHolder.h */,
+				2DF121FD2011F6F3006EBDC4 /* CWPlaceHolder.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2DF121FE2011F6F3006EBDC4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2DF121FF2011F6F3006EBDC4 /* CWPlaceHolder.h */,
+				2DF122002011F6F3006EBDC4 /* CWPlaceHolder.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2DF122042011F6FF006EBDC4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2DF122052011F6FF006EBDC4 /* CWPlaceHolder.h */,
+				2DF122062011F6FF006EBDC4 /* CWPlaceHolder.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2DF122072011F6FF006EBDC4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2DF122082011F6FF006EBDC4 /* CWPlaceHolder.h */,
+				2DF122092011F6FF006EBDC4 /* CWPlaceHolder.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2DF1220A2011F6FF006EBDC4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2DF1220B2011F6FF006EBDC4 /* CWPlaceHolder.h */,
+				2DF1220C2011F6FF006EBDC4 /* CWPlaceHolder.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2DF122102011F707006EBDC4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2DF122112011F707006EBDC4 /* CWPlaceHolder.h */,
+				2DF122122011F707006EBDC4 /* CWPlaceHolder.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2DF122132011F707006EBDC4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2DF122142011F707006EBDC4 /* CWPlaceHolder.h */,
+				2DF122152011F707006EBDC4 /* CWPlaceHolder.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2DF122162011F707006EBDC4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2DF122172011F707006EBDC4 /* CWPlaceHolder.h */,
+				2DF122182011F707006EBDC4 /* CWPlaceHolder.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2DF1221C2011F70F006EBDC4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2DF1221D2011F70F006EBDC4 /* CWPlaceHolder.h */,
+				2DF1221E2011F70F006EBDC4 /* CWPlaceHolder.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2DF1221F2011F70F006EBDC4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2DF122202011F70F006EBDC4 /* CWPlaceHolder.h */,
+				2DF122212011F70F006EBDC4 /* CWPlaceHolder.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2DF122222011F70F006EBDC4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2DF122232011F70F006EBDC4 /* CWPlaceHolder.h */,
+				2DF122242011F70F006EBDC4 /* CWPlaceHolder.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2DF1222E2011F762006EBDC4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2DF1222F2011F762006EBDC4 /* CWPlaceHolder.h */,
+				2DF122302011F762006EBDC4 /* CWPlaceHolder.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,9 +649,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DF121C52011B914006EBDC4 /* CWBaseNavigationController.m in Sources */,
+				2DF121D52011D0BE006EBDC4 /* CWNavigationController.m in Sources */,
 				2DF121892010991F006EBDC4 /* ViewController.m in Sources */,
+				2DF1221A2011F707006EBDC4 /* CWPlaceHolder.m in Sources */,
+				2DF121C22011B8ED006EBDC4 /* CWBaseViewController.m in Sources */,
 				2DF121942010991F006EBDC4 /* main.m in Sources */,
-				2DF121862010991F006EBDC4 /* AppDelegate.m in Sources */,
+				2DF121DE2011D184006EBDC4 /* CWTabBarController.m in Sources */,
+				2DF121E72011D47F006EBDC4 /* CWBaseHomeViewController.m in Sources */,
+				2DF122022011F6F3006EBDC4 /* CWPlaceHolder.m in Sources */,
+				2DF122032011F6F3006EBDC4 /* CWPlaceHolder.m in Sources */,
+				2DF121CC2011BA07006EBDC4 /* CWConstant.m in Sources */,
+				2DF122342011F783006EBDC4 /* CWPlaceHolder.m in Sources */,
+				2DF1222D2011F759006EBDC4 /* CWPlaceHolder.m in Sources */,
+				2DF121C82011B93C006EBDC4 /* CWUtils.m in Sources */,
+				2DF122192011F707006EBDC4 /* CWPlaceHolder.m in Sources */,
+				2DF1220F2011F6FF006EBDC4 /* CWPlaceHolder.m in Sources */,
+				2DF1220D2011F6FF006EBDC4 /* CWPlaceHolder.m in Sources */,
+				2DF121D22011D05E006EBDC4 /* AppDelegate.m in Sources */,
+				2DF121DB2011D164006EBDC4 /* CWBaseTabBarController.m in Sources */,
+				2DF122012011F6F3006EBDC4 /* CWPlaceHolder.m in Sources */,
+				2DF121F72011F6AC006EBDC4 /* CWPlaceHolder.m in Sources */,
+				2DF121F12011F683006EBDC4 /* CWPlaceHolder.m in Sources */,
+				2DF1222A2011F750006EBDC4 /* CWPlaceHolder.m in Sources */,
+				2DF1221B2011F707006EBDC4 /* CWPlaceHolder.m in Sources */,
+				2DF122262011F70F006EBDC4 /* CWPlaceHolder.m in Sources */,
+				2DF122372011F78C006EBDC4 /* CWPlaceHolder.m in Sources */,
+				2DF122312011F762006EBDC4 /* CWPlaceHolder.m in Sources */,
+				2DF1220E2011F6FF006EBDC4 /* CWPlaceHolder.m in Sources */,
+				2DF121F42011F6A3006EBDC4 /* CWPlaceHolder.m in Sources */,
+				2DF122252011F70F006EBDC4 /* CWPlaceHolder.m in Sources */,
+				2DF122272011F70F006EBDC4 /* CWPlaceHolder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
