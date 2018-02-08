@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "CWTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -20,6 +21,10 @@
     CGRect screenBounds = [UIScreen mainScreen].bounds;
     self.window = [[UIWindow alloc] initWithFrame:screenBounds];
     
+    CWTabBarController *tabController = [[CWTabBarController alloc] init];
+    self.window.rootViewController = tabController;
+    
+    [self.window makeKeyAndVisible];
     
     return YES;
 }

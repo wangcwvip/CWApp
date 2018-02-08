@@ -7,8 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D9EACC6202C453600FD17ED /* CYLPlusButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9EACB9202C453600FD17ED /* CYLPlusButton.m */; };
+		2D9EACC7202C453600FD17ED /* CYLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9EACBB202C453600FD17ED /* CYLTabBar.m */; };
+		2D9EACC8202C453600FD17ED /* CYLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9EACBD202C453600FD17ED /* CYLTabBarController.m */; };
+		2D9EACC9202C453600FD17ED /* UIControl+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9EACBF202C453600FD17ED /* UIControl+CYLTabBarControllerExtention.m */; };
+		2D9EACCA202C453600FD17ED /* UITabBarItem+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9EACC1202C453600FD17ED /* UITabBarItem+CYLTabBarControllerExtention.m */; };
+		2D9EACCB202C453600FD17ED /* UIView+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9EACC3202C453600FD17ED /* UIView+CYLTabBarControllerExtention.m */; };
+		2D9EACCC202C453600FD17ED /* UIViewController+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9EACC5202C453600FD17ED /* UIViewController+CYLTabBarControllerExtention.m */; };
+		2D9EACDF202C49C400FD17ED /* RAMBounceAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9EACD2202C49C400FD17ED /* RAMBounceAnimation.swift */; };
+		2D9EACE0202C49C400FD17ED /* RAMFrameItemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9EACD4202C49C400FD17ED /* RAMFrameItemAnimation.swift */; };
+		2D9EACE1202C49C400FD17ED /* RAMFumeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9EACD6202C49C400FD17ED /* RAMFumeAnimation.swift */; };
+		2D9EACE2202C49C400FD17ED /* RAMRotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9EACD8202C49C400FD17ED /* RAMRotationAnimation.swift */; };
+		2D9EACE3202C49C400FD17ED /* RAMTransitionItemAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9EACDA202C49C400FD17ED /* RAMTransitionItemAnimations.swift */; };
+		2D9EACE4202C49C400FD17ED /* RAMAnimatedTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9EACDB202C49C400FD17ED /* RAMAnimatedTabBarController.swift */; };
+		2D9EACE5202C49C400FD17ED /* RAMBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9EACDD202C49C400FD17ED /* RAMBadge.swift */; };
+		2D9EACE6202C49C400FD17ED /* RAMItemAnimationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9EACDE202C49C400FD17ED /* RAMItemAnimationProtocol.swift */; };
+		2D9EACE9202C4A5F00FD17ED /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D9EACE8202C4A5F00FD17ED /* Image.xcassets */; };
 		2DF121892010991F006EBDC4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF121882010991F006EBDC4 /* ViewController.m */; };
-		2DF1218E2010991F006EBDC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DF1218D2010991F006EBDC4 /* Assets.xcassets */; };
 		2DF121912010991F006EBDC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DF1218F2010991F006EBDC4 /* LaunchScreen.storyboard */; };
 		2DF121942010991F006EBDC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF121932010991F006EBDC4 /* main.m */; };
 		2DF1219E2010991F006EBDC4 /* CWAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF1219D2010991F006EBDC4 /* CWAppTests.m */; };
@@ -22,26 +37,7 @@
 		2DF121DB2011D164006EBDC4 /* CWBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF121DA2011D164006EBDC4 /* CWBaseTabBarController.m */; };
 		2DF121DE2011D184006EBDC4 /* CWTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF121DD2011D184006EBDC4 /* CWTabBarController.m */; };
 		2DF121E72011D47F006EBDC4 /* CWBaseHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF121E62011D47F006EBDC4 /* CWBaseHomeViewController.m */; };
-		2DF121F12011F683006EBDC4 /* CWPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF121F02011F683006EBDC4 /* CWPlaceHolder.m */; };
-		2DF121F42011F6A3006EBDC4 /* CWPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF121F22011F6A3006EBDC4 /* CWPlaceHolder.m */; };
-		2DF121F72011F6AC006EBDC4 /* CWPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF121F52011F6AC006EBDC4 /* CWPlaceHolder.m */; };
-		2DF122012011F6F3006EBDC4 /* CWPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF121FA2011F6F3006EBDC4 /* CWPlaceHolder.m */; };
-		2DF122022011F6F3006EBDC4 /* CWPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF121FD2011F6F3006EBDC4 /* CWPlaceHolder.m */; };
-		2DF122032011F6F3006EBDC4 /* CWPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF122002011F6F3006EBDC4 /* CWPlaceHolder.m */; };
-		2DF1220D2011F6FF006EBDC4 /* CWPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF122062011F6FF006EBDC4 /* CWPlaceHolder.m */; };
-		2DF1220E2011F6FF006EBDC4 /* CWPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF122092011F6FF006EBDC4 /* CWPlaceHolder.m */; };
-		2DF1220F2011F6FF006EBDC4 /* CWPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF1220C2011F6FF006EBDC4 /* CWPlaceHolder.m */; };
-		2DF122192011F707006EBDC4 /* CWPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF122122011F707006EBDC4 /* CWPlaceHolder.m */; };
 		2DF1221A2011F707006EBDC4 /* CWPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF122152011F707006EBDC4 /* CWPlaceHolder.m */; };
-		2DF1221B2011F707006EBDC4 /* CWPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF122182011F707006EBDC4 /* CWPlaceHolder.m */; };
-		2DF122252011F70F006EBDC4 /* CWPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF1221E2011F70F006EBDC4 /* CWPlaceHolder.m */; };
-		2DF122262011F70F006EBDC4 /* CWPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF122212011F70F006EBDC4 /* CWPlaceHolder.m */; };
-		2DF122272011F70F006EBDC4 /* CWPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF122242011F70F006EBDC4 /* CWPlaceHolder.m */; };
-		2DF1222A2011F750006EBDC4 /* CWPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF122292011F750006EBDC4 /* CWPlaceHolder.m */; };
-		2DF1222D2011F759006EBDC4 /* CWPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF1222C2011F759006EBDC4 /* CWPlaceHolder.m */; };
-		2DF122312011F762006EBDC4 /* CWPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF122302011F762006EBDC4 /* CWPlaceHolder.m */; };
-		2DF122342011F783006EBDC4 /* CWPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF122332011F783006EBDC4 /* CWPlaceHolder.m */; };
-		2DF122372011F78C006EBDC4 /* CWPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF122352011F78B006EBDC4 /* CWPlaceHolder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,10 +58,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D9EACB7202C453600FD17ED /* CYLConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLConstants.h; sourceTree = "<group>"; };
+		2D9EACB8202C453600FD17ED /* CYLPlusButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLPlusButton.h; sourceTree = "<group>"; };
+		2D9EACB9202C453600FD17ED /* CYLPlusButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLPlusButton.m; sourceTree = "<group>"; };
+		2D9EACBA202C453600FD17ED /* CYLTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLTabBar.h; sourceTree = "<group>"; };
+		2D9EACBB202C453600FD17ED /* CYLTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLTabBar.m; sourceTree = "<group>"; };
+		2D9EACBC202C453600FD17ED /* CYLTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLTabBarController.h; sourceTree = "<group>"; };
+		2D9EACBD202C453600FD17ED /* CYLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLTabBarController.m; sourceTree = "<group>"; };
+		2D9EACBE202C453600FD17ED /* UIControl+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		2D9EACBF202C453600FD17ED /* UIControl+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		2D9EACC0202C453600FD17ED /* UITabBarItem+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		2D9EACC1202C453600FD17ED /* UITabBarItem+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		2D9EACC2202C453600FD17ED /* UIView+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		2D9EACC3202C453600FD17ED /* UIView+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		2D9EACC4202C453600FD17ED /* UIViewController+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		2D9EACC5202C453600FD17ED /* UIViewController+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		2D9EACD2202C49C400FD17ED /* RAMBounceAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMBounceAnimation.swift; sourceTree = "<group>"; };
+		2D9EACD4202C49C400FD17ED /* RAMFrameItemAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMFrameItemAnimation.swift; sourceTree = "<group>"; };
+		2D9EACD6202C49C400FD17ED /* RAMFumeAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMFumeAnimation.swift; sourceTree = "<group>"; };
+		2D9EACD8202C49C400FD17ED /* RAMRotationAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMRotationAnimation.swift; sourceTree = "<group>"; };
+		2D9EACDA202C49C400FD17ED /* RAMTransitionItemAnimations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMTransitionItemAnimations.swift; sourceTree = "<group>"; };
+		2D9EACDB202C49C400FD17ED /* RAMAnimatedTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMAnimatedTabBarController.swift; sourceTree = "<group>"; };
+		2D9EACDD202C49C400FD17ED /* RAMBadge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMBadge.swift; sourceTree = "<group>"; };
+		2D9EACDE202C49C400FD17ED /* RAMItemAnimationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMItemAnimationProtocol.swift; sourceTree = "<group>"; };
+		2D9EACE8202C4A5F00FD17ED /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
 		2DF121812010991F006EBDC4 /* CWApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CWApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DF121872010991F006EBDC4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2DF121882010991F006EBDC4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2DF1218D2010991F006EBDC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DF121902010991F006EBDC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DF121922010991F006EBDC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DF121932010991F006EBDC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -131,8 +150,6 @@
 		2DF122302011F762006EBDC4 /* CWPlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWPlaceHolder.m; sourceTree = "<group>"; };
 		2DF122322011F783006EBDC4 /* CWPlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWPlaceHolder.h; sourceTree = "<group>"; };
 		2DF122332011F783006EBDC4 /* CWPlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWPlaceHolder.m; sourceTree = "<group>"; };
-		2DF122352011F78B006EBDC4 /* CWPlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWPlaceHolder.m; sourceTree = "<group>"; };
-		2DF122362011F78B006EBDC4 /* CWPlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWPlaceHolder.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +177,107 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D9EACB6202C453600FD17ED /* CYLTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				2D9EACB7202C453600FD17ED /* CYLConstants.h */,
+				2D9EACB8202C453600FD17ED /* CYLPlusButton.h */,
+				2D9EACB9202C453600FD17ED /* CYLPlusButton.m */,
+				2D9EACBA202C453600FD17ED /* CYLTabBar.h */,
+				2D9EACBB202C453600FD17ED /* CYLTabBar.m */,
+				2D9EACBC202C453600FD17ED /* CYLTabBarController.h */,
+				2D9EACBD202C453600FD17ED /* CYLTabBarController.m */,
+				2D9EACBE202C453600FD17ED /* UIControl+CYLTabBarControllerExtention.h */,
+				2D9EACBF202C453600FD17ED /* UIControl+CYLTabBarControllerExtention.m */,
+				2D9EACC0202C453600FD17ED /* UITabBarItem+CYLTabBarControllerExtention.h */,
+				2D9EACC1202C453600FD17ED /* UITabBarItem+CYLTabBarControllerExtention.m */,
+				2D9EACC2202C453600FD17ED /* UIView+CYLTabBarControllerExtention.h */,
+				2D9EACC3202C453600FD17ED /* UIView+CYLTabBarControllerExtention.m */,
+				2D9EACC4202C453600FD17ED /* UIViewController+CYLTabBarControllerExtention.h */,
+				2D9EACC5202C453600FD17ED /* UIViewController+CYLTabBarControllerExtention.m */,
+			);
+			path = CYLTabBarController;
+			sourceTree = "<group>";
+		};
+		2D9EACCF202C49C400FD17ED /* RAMAnimatedTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				2D9EACD0202C49C400FD17ED /* Animations */,
+				2D9EACDB202C49C400FD17ED /* RAMAnimatedTabBarController.swift */,
+				2D9EACDC202C49C400FD17ED /* RAMBadge */,
+				2D9EACDE202C49C400FD17ED /* RAMItemAnimationProtocol.swift */,
+			);
+			path = RAMAnimatedTabBarController;
+			sourceTree = "<group>";
+		};
+		2D9EACD0202C49C400FD17ED /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				2D9EACD1202C49C400FD17ED /* BounceAnimation */,
+				2D9EACD3202C49C400FD17ED /* FrameAnimation */,
+				2D9EACD5202C49C400FD17ED /* FumeAnimation */,
+				2D9EACD7202C49C400FD17ED /* RotationAnimation */,
+				2D9EACD9202C49C400FD17ED /* TransitionAniamtions */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		2D9EACD1202C49C400FD17ED /* BounceAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				2D9EACD2202C49C400FD17ED /* RAMBounceAnimation.swift */,
+			);
+			path = BounceAnimation;
+			sourceTree = "<group>";
+		};
+		2D9EACD3202C49C400FD17ED /* FrameAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				2D9EACD4202C49C400FD17ED /* RAMFrameItemAnimation.swift */,
+			);
+			path = FrameAnimation;
+			sourceTree = "<group>";
+		};
+		2D9EACD5202C49C400FD17ED /* FumeAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				2D9EACD6202C49C400FD17ED /* RAMFumeAnimation.swift */,
+			);
+			path = FumeAnimation;
+			sourceTree = "<group>";
+		};
+		2D9EACD7202C49C400FD17ED /* RotationAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				2D9EACD8202C49C400FD17ED /* RAMRotationAnimation.swift */,
+			);
+			path = RotationAnimation;
+			sourceTree = "<group>";
+		};
+		2D9EACD9202C49C400FD17ED /* TransitionAniamtions */ = {
+			isa = PBXGroup;
+			children = (
+				2D9EACDA202C49C400FD17ED /* RAMTransitionItemAnimations.swift */,
+			);
+			path = TransitionAniamtions;
+			sourceTree = "<group>";
+		};
+		2D9EACDC202C49C400FD17ED /* RAMBadge */ = {
+			isa = PBXGroup;
+			children = (
+				2D9EACDD202C49C400FD17ED /* RAMBadge.swift */,
+			);
+			path = RAMBadge;
+			sourceTree = "<group>";
+		};
+		2D9EACE7202C49EE00FD17ED /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2D9EACE8202C4A5F00FD17ED /* Image.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		2DF121782010991F006EBDC4 = {
 			isa = PBXGroup;
 			children = (
@@ -188,9 +306,9 @@
 				2DF121B620109C4F006EBDC4 /* Common */,
 				2DF121EC2011DA6D006EBDC4 /* Expand */,
 				2DF121EB2011DA04006EBDC4 /* Vendors */,
+				2D9EACE7202C49EE00FD17ED /* Resources */,
 				2DF121872010991F006EBDC4 /* ViewController.h */,
 				2DF121882010991F006EBDC4 /* ViewController.m */,
-				2DF1218D2010991F006EBDC4 /* Assets.xcassets */,
 				2DF1218F2010991F006EBDC4 /* LaunchScreen.storyboard */,
 				2DF121922010991F006EBDC4 /* Info.plist */,
 				2DF121932010991F006EBDC4 /* main.m */,
@@ -385,8 +503,8 @@
 		2DF121EB2011DA04006EBDC4 /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
-				2DF122362011F78B006EBDC4 /* CWPlaceHolder.h */,
-				2DF122352011F78B006EBDC4 /* CWPlaceHolder.m */,
+				2D9EACCF202C49C400FD17ED /* RAMAnimatedTabBarController */,
+				2D9EACB6202C453600FD17ED /* CYLTabBarController */,
 			);
 			path = Vendors;
 			sourceTree = "<group>";
@@ -624,7 +742,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DF121912010991F006EBDC4 /* LaunchScreen.storyboard in Resources */,
-				2DF1218E2010991F006EBDC4 /* Assets.xcassets in Resources */,
+				2D9EACE9202C4A5F00FD17ED /* Image.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -649,37 +767,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D9EACC7202C453600FD17ED /* CYLTabBar.m in Sources */,
 				2DF121C52011B914006EBDC4 /* CWBaseNavigationController.m in Sources */,
 				2DF121D52011D0BE006EBDC4 /* CWNavigationController.m in Sources */,
+				2D9EACC9202C453600FD17ED /* UIControl+CYLTabBarControllerExtention.m in Sources */,
+				2D9EACE0202C49C400FD17ED /* RAMFrameItemAnimation.swift in Sources */,
 				2DF121892010991F006EBDC4 /* ViewController.m in Sources */,
 				2DF1221A2011F707006EBDC4 /* CWPlaceHolder.m in Sources */,
 				2DF121C22011B8ED006EBDC4 /* CWBaseViewController.m in Sources */,
+				2D9EACDF202C49C400FD17ED /* RAMBounceAnimation.swift in Sources */,
 				2DF121942010991F006EBDC4 /* main.m in Sources */,
+				2D9EACC6202C453600FD17ED /* CYLPlusButton.m in Sources */,
+				2D9EACE4202C49C400FD17ED /* RAMAnimatedTabBarController.swift in Sources */,
+				2D9EACE3202C49C400FD17ED /* RAMTransitionItemAnimations.swift in Sources */,
 				2DF121DE2011D184006EBDC4 /* CWTabBarController.m in Sources */,
 				2DF121E72011D47F006EBDC4 /* CWBaseHomeViewController.m in Sources */,
-				2DF122022011F6F3006EBDC4 /* CWPlaceHolder.m in Sources */,
-				2DF122032011F6F3006EBDC4 /* CWPlaceHolder.m in Sources */,
 				2DF121CC2011BA07006EBDC4 /* CWConstant.m in Sources */,
-				2DF122342011F783006EBDC4 /* CWPlaceHolder.m in Sources */,
-				2DF1222D2011F759006EBDC4 /* CWPlaceHolder.m in Sources */,
+				2D9EACCC202C453600FD17ED /* UIViewController+CYLTabBarControllerExtention.m in Sources */,
+				2D9EACCA202C453600FD17ED /* UITabBarItem+CYLTabBarControllerExtention.m in Sources */,
+				2D9EACC8202C453600FD17ED /* CYLTabBarController.m in Sources */,
+				2D9EACCB202C453600FD17ED /* UIView+CYLTabBarControllerExtention.m in Sources */,
+				2D9EACE6202C49C400FD17ED /* RAMItemAnimationProtocol.swift in Sources */,
 				2DF121C82011B93C006EBDC4 /* CWUtils.m in Sources */,
-				2DF122192011F707006EBDC4 /* CWPlaceHolder.m in Sources */,
-				2DF1220F2011F6FF006EBDC4 /* CWPlaceHolder.m in Sources */,
-				2DF1220D2011F6FF006EBDC4 /* CWPlaceHolder.m in Sources */,
 				2DF121D22011D05E006EBDC4 /* AppDelegate.m in Sources */,
+				2D9EACE5202C49C400FD17ED /* RAMBadge.swift in Sources */,
+				2D9EACE1202C49C400FD17ED /* RAMFumeAnimation.swift in Sources */,
 				2DF121DB2011D164006EBDC4 /* CWBaseTabBarController.m in Sources */,
-				2DF122012011F6F3006EBDC4 /* CWPlaceHolder.m in Sources */,
-				2DF121F72011F6AC006EBDC4 /* CWPlaceHolder.m in Sources */,
-				2DF121F12011F683006EBDC4 /* CWPlaceHolder.m in Sources */,
-				2DF1222A2011F750006EBDC4 /* CWPlaceHolder.m in Sources */,
-				2DF1221B2011F707006EBDC4 /* CWPlaceHolder.m in Sources */,
-				2DF122262011F70F006EBDC4 /* CWPlaceHolder.m in Sources */,
-				2DF122372011F78C006EBDC4 /* CWPlaceHolder.m in Sources */,
-				2DF122312011F762006EBDC4 /* CWPlaceHolder.m in Sources */,
-				2DF1220E2011F6FF006EBDC4 /* CWPlaceHolder.m in Sources */,
-				2DF121F42011F6A3006EBDC4 /* CWPlaceHolder.m in Sources */,
-				2DF122252011F70F006EBDC4 /* CWPlaceHolder.m in Sources */,
-				2DF122272011F70F006EBDC4 /* CWPlaceHolder.m in Sources */,
+				2D9EACE2202C49C400FD17ED /* RAMRotationAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -861,6 +975,7 @@
 		2DF121B12010991F006EBDC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CWAppTests/Info.plist;
@@ -875,6 +990,7 @@
 		2DF121B22010991F006EBDC4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CWAppTests/Info.plist;
@@ -889,6 +1005,7 @@
 		2DF121B42010991F006EBDC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CWAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -902,6 +1019,7 @@
 		2DF121B52010991F006EBDC4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CWAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
