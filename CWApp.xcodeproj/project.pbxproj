@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DAED72E20144288009608B7 /* CWHomeMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAED72D20144288009608B7 /* CWHomeMainViewController.m */; };
+		2DAED731201442CE009608B7 /* CWHomeMainViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAED730201442CE009608B7 /* CWHomeMainViewModel.m */; };
 		2DF121892010991F006EBDC4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF121882010991F006EBDC4 /* ViewController.m */; };
 		2DF1218E2010991F006EBDC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DF1218D2010991F006EBDC4 /* Assets.xcassets */; };
 		2DF121912010991F006EBDC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DF1218F2010991F006EBDC4 /* LaunchScreen.storyboard */; };
@@ -62,6 +64,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2DAED72C20144288009608B7 /* CWHomeMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWHomeMainViewController.h; sourceTree = "<group>"; };
+		2DAED72D20144288009608B7 /* CWHomeMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWHomeMainViewController.m; sourceTree = "<group>"; };
+		2DAED72F201442CE009608B7 /* CWHomeMainViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWHomeMainViewModel.h; sourceTree = "<group>"; };
+		2DAED730201442CE009608B7 /* CWHomeMainViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWHomeMainViewModel.m; sourceTree = "<group>"; };
 		2DF121812010991F006EBDC4 /* CWApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CWApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DF121872010991F006EBDC4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2DF121882010991F006EBDC4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -160,6 +166,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2DAED72B20144228009608B7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2DAED72F201442CE009608B7 /* CWHomeMainViewModel.h */,
+				2DAED730201442CE009608B7 /* CWHomeMainViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		2DF121782010991F006EBDC4 = {
 			isa = PBXGroup;
 			children = (
@@ -328,6 +343,7 @@
 		2DF121E22011D29D006EBDC4 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				2DAED72B20144228009608B7 /* ViewModel */,
 				2DF121E92011D9A7006EBDC4 /* Model */,
 				2DF121EA2011D9A7006EBDC4 /* View */,
 				2DF121E82011D9A7006EBDC4 /* ViewController */,
@@ -360,6 +376,8 @@
 			children = (
 				2DF121F62011F6AC006EBDC4 /* CWPlaceHolder.h */,
 				2DF121F52011F6AC006EBDC4 /* CWPlaceHolder.m */,
+				2DAED72C20144288009608B7 /* CWHomeMainViewController.h */,
+				2DAED72D20144288009608B7 /* CWHomeMainViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -664,6 +682,7 @@
 				2DF1222D2011F759006EBDC4 /* CWPlaceHolder.m in Sources */,
 				2DF121C82011B93C006EBDC4 /* CWUtils.m in Sources */,
 				2DF122192011F707006EBDC4 /* CWPlaceHolder.m in Sources */,
+				2DAED731201442CE009608B7 /* CWHomeMainViewModel.m in Sources */,
 				2DF1220F2011F6FF006EBDC4 /* CWPlaceHolder.m in Sources */,
 				2DF1220D2011F6FF006EBDC4 /* CWPlaceHolder.m in Sources */,
 				2DF121D22011D05E006EBDC4 /* AppDelegate.m in Sources */,
@@ -677,6 +696,7 @@
 				2DF122372011F78C006EBDC4 /* CWPlaceHolder.m in Sources */,
 				2DF122312011F762006EBDC4 /* CWPlaceHolder.m in Sources */,
 				2DF1220E2011F6FF006EBDC4 /* CWPlaceHolder.m in Sources */,
+				2DAED72E20144288009608B7 /* CWHomeMainViewController.m in Sources */,
 				2DF121F42011F6A3006EBDC4 /* CWPlaceHolder.m in Sources */,
 				2DF122252011F70F006EBDC4 /* CWPlaceHolder.m in Sources */,
 				2DF122272011F70F006EBDC4 /* CWPlaceHolder.m in Sources */,
