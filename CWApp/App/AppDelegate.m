@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "CWTabBarController.h"
+#import "RESideMenu.h"
+#import "CWSideMenuViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,10 +19,24 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    UIViewController *mainTabVC = [[CWTabBarController alloc] init];
+    CWSideMenuViewController *leftMenuVC = [[CWSideMenuViewController alloc] init];
     
-    CGRect screenBounds = [UIScreen mainScreen].bounds;
-    self.window = [[UIWindow alloc] initWithFrame:screenBounds];
+    RESideMenu *sideMenu = [[RESideMenu alloc] initWithContentViewController:mainTabVC leftMenuViewController:leftMenuVC rightMenuViewController:nil];
+    sideMenu.scaleContentView = NO;
+    sideMenu.scaleMenuView = NO;
+    sideMenu.scaleBackgroundImageView = NO;
+    sideMenu.contentViewInPortraitOffsetCenterX = [UIScreen mainScreen].bounds.size.width/4;
+    sideMenu.menuPreferredStatusBarStyle = UIStatusBarStyleLightContent;
+    sideMenu.contentViewShadowColor = [UIColor blackColor];
+    sideMenu.contentViewShadowOffset = CGSizeMake(0, 0);
+    sideMenu.contentViewShadowOpacity = 0.6;
+    sideMenu.contentViewShadowRadius = 12;
     
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = sideMenu;
+    [self.window makeKeyAndVisible];
     
     return YES;
 }
@@ -50,6 +67,5 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
-
 
 @end

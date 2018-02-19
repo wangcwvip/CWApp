@@ -6,8 +6,8 @@
 //  Copyright © 2018年 wangcw. All rights reserved.
 //
 
-#import "CWBaseTabBarController.h"
+#import "CYLTabBarController.h"
 
-@interface CWTabBarController : CWBaseTabBarController
+@interface CWTabBarController : CYLTabBarController
 
 @end

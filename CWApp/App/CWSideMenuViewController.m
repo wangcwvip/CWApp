@@ -1,23 +1,23 @@
 //
-//  CWTabBarController.m
+//  CWSideMenuViewController.m
 //  CWApp
 //
-//  Created by wangcw on 2018/1/19.
+//  Created by wcw on 2018/2/14.
 //  Copyright © 2018年 wangcw. All rights reserved.
 //
 
-#import "CWTabBarController.h"
+#import "CWSideMenuViewController.h"
 
-@interface CWTabBarController ()
+@interface CWSideMenuViewController ()
 
 @end
 
-@implementation CWTabBarController
+@implementation CWSideMenuViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    self.view.backgroundColor = [UIColor whiteColor];
+
+    self.view.backgroundColor = [UIColor brownColor];
 }
 
 - (void)didReceiveMemoryWarning {
