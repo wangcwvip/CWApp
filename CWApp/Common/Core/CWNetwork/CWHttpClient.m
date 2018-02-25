@@ -40,25 +40,30 @@
     NSURL *baseUrl = [NSURL URLWithString:_baseUrlString];
     AFHTTPSessionManager *sessionManager = [[AFHTTPSessionManager alloc] initWithBaseURL:baseUrl];
     
+    //请求序列化对象
     AFHTTPRequestSerializer *requestSerializer = [AFHTTPRequestSerializer serializer];
     requestSerializer.HTTPShouldHandleCookies = NO;
     requestSerializer.timeoutInterval = _timeoutInterval;
     sessionManager.requestSerializer = requestSerializer;
     
+    //返回序列化对象
     AFJSONResponseSerializer *responseSerialzer = [AFJSONResponseSerializer serializerWithReadingOptions:NSJSONReadingMutableContainers|NSJSONReadingMutableLeaves|NSJSONReadingAllowFragments];
     responseSerialzer.removesKeysWithNullValues = YES;
     sessionManager.responseSerializer = responseSerialzer;
     
+    //安全策略
     AFSecurityPolicy *securityPolicy = [AFSecurityPolicy defaultPolicy];
     securityPolicy.allowInvalidCertificates = NO;
     securityPolicy.validatesDomainName = YES;
     sessionManager.securityPolicy = securityPolicy;
     
+    //构造通用请求头
     NSArray *allKeys = [_commonHeaderParams allKeys];
     for (NSString *key in allKeys) {
         [sessionManager.requestSerializer setValue:[_commonHeaderParams objectForKey:key] forHTTPHeaderField:key];
     }
     
+    //构造请求串
     __weak typeof(self) wSelf = self;
     [sessionManager.requestSerializer setQueryStringSerializationWithBlock:^NSString * _Nonnull(NSURLRequest * _Nonnull request, id  _Nonnull parameters, NSError * _Nullable __autoreleasing * _Nullable error) {
         NSString *requestId = [parameters objectForKey:kRequestIdentityKey];

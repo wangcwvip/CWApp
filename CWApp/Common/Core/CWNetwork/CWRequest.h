@@ -32,6 +32,18 @@ typedef void (^CWRequestProgressBlock)(NSProgress *progress);
 
 NSString *const kRequestIdentityKey = @"CWRequestIdentityKey";
 
+#define kNetworkServiceErrorDomain      @"CWNetworkFailureErrorDomain"
+#define kNetworkBusinessErrorDomain     @"CWNetworkBusinessErrorDomain"
+
+typedef NS_ENUM(NSInteger, CWNetworkErrorCode){
+    NetworkServiceUnavailableError = 100,   //服务不可用
+    NetworkRequestInvalidParamsError,       //参数不可用
+    NetworkRequestRepeatedError,            //网络请求
+    NetworkRequestQueueFullError,
+    NetworkRequestUserStatusInvalidError,           //User invalid
+    NetworkRequestNetworkNotReady
+};
+
 @interface CWRequest : NSObject
 
 //请求方法，默认GET

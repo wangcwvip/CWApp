@@ -82,6 +82,11 @@
 - (void)sendRequest:(CWRequest *)request
 {
     //check
+    if ([request.functionPath length] == 0) {
+        if (request.failureBlock) {
+            NSError *error = [NSError errorWithDomain:kNetworkServiceErrorDomain code:1 userInfo:@{NSLocalizedDescriptionKey: @"参数可能不对"}];
+        }
+    }
     
     //do
     
