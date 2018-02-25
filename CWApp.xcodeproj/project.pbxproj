@@ -25,6 +25,11 @@
 		2D1A2DF12031E74300A65088 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1A2DED2031E74300A65088 /* RECommonFunctions.m */; };
 		2D1A2E082033E96E00A65088 /* CWSideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1A2E072033E96E00A65088 /* CWSideMenuViewController.m */; };
 		2D7A60F2203877DA00443B9D /* CWUtilsMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7A60F1203877DA00443B9D /* CWUtilsMethod.m */; };
+		2D9C204F2041537D00330136 /* CWRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9C204E2041537D00330136 /* CWRequest.m */; };
+		2D9C20522041539900330136 /* CWResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9C20512041539900330136 /* CWResponse.m */; };
+		2D9C2055204159F100330136 /* CWNetworkSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9C2054204159F100330136 /* CWNetworkSettings.m */; };
+		2D9C20582041994700330136 /* CWNetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9C20572041994700330136 /* CWNetworkService.m */; };
+		2D9C205B20419E4E00330136 /* CWHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9C205A20419E4E00330136 /* CWHttpClient.m */; };
 		2D9EACC6202C453600FD17ED /* CYLPlusButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9EACB9202C453600FD17ED /* CYLPlusButton.m */; };
 		2D9EACC7202C453600FD17ED /* CYLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9EACBB202C453600FD17ED /* CYLTabBar.m */; };
 		2D9EACC8202C453600FD17ED /* CYLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9EACBD202C453600FD17ED /* CYLTabBarController.m */; };
@@ -101,6 +106,16 @@
 		2D7A60F1203877DA00443B9D /* CWUtilsMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWUtilsMethod.m; sourceTree = "<group>"; };
 		2D7A60F42038784E00443B9D /* CWUtilsMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWUtilsMacros.h; sourceTree = "<group>"; };
 		2D7A60F82039286300443B9D /* CWApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CWApp-Prefix.pch"; sourceTree = "<group>"; };
+		2D9C204D2041537D00330136 /* CWRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWRequest.h; sourceTree = "<group>"; };
+		2D9C204E2041537D00330136 /* CWRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWRequest.m; sourceTree = "<group>"; };
+		2D9C20502041539900330136 /* CWResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWResponse.h; sourceTree = "<group>"; };
+		2D9C20512041539900330136 /* CWResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWResponse.m; sourceTree = "<group>"; };
+		2D9C2053204159F100330136 /* CWNetworkSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWNetworkSettings.h; sourceTree = "<group>"; };
+		2D9C2054204159F100330136 /* CWNetworkSettings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWNetworkSettings.m; sourceTree = "<group>"; };
+		2D9C20562041994700330136 /* CWNetworkService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWNetworkService.h; sourceTree = "<group>"; };
+		2D9C20572041994700330136 /* CWNetworkService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWNetworkService.m; sourceTree = "<group>"; };
+		2D9C205920419E4E00330136 /* CWHttpClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWHttpClient.h; sourceTree = "<group>"; };
+		2D9C205A20419E4E00330136 /* CWHttpClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWHttpClient.m; sourceTree = "<group>"; };
 		2D9EACB7202C453600FD17ED /* CYLConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLConstants.h; sourceTree = "<group>"; };
 		2D9EACB8202C453600FD17ED /* CYLPlusButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLPlusButton.h; sourceTree = "<group>"; };
 		2D9EACB9202C453600FD17ED /* CYLPlusButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLPlusButton.m; sourceTree = "<group>"; };
@@ -203,6 +218,7 @@
 		2D05C59E203ACFC1003B9559 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				2D9C20462041530700330136 /* CWNetwork */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -278,6 +294,23 @@
 				2D1A2DED2031E74300A65088 /* RECommonFunctions.m */,
 			);
 			path = RESideMenu;
+			sourceTree = "<group>";
+		};
+		2D9C20462041530700330136 /* CWNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				2D9C204D2041537D00330136 /* CWRequest.h */,
+				2D9C204E2041537D00330136 /* CWRequest.m */,
+				2D9C20502041539900330136 /* CWResponse.h */,
+				2D9C20512041539900330136 /* CWResponse.m */,
+				2D9C205920419E4E00330136 /* CWHttpClient.h */,
+				2D9C205A20419E4E00330136 /* CWHttpClient.m */,
+				2D9C2053204159F100330136 /* CWNetworkSettings.h */,
+				2D9C2054204159F100330136 /* CWNetworkSettings.m */,
+				2D9C20562041994700330136 /* CWNetworkService.h */,
+				2D9C20572041994700330136 /* CWNetworkService.m */,
+			);
+			path = CWNetwork;
 			sourceTree = "<group>";
 		};
 		2D9EACB6202C453600FD17ED /* CYLTabBarController */ = {
@@ -792,10 +825,12 @@
 				2D7A60F2203877DA00443B9D /* CWUtilsMethod.m in Sources */,
 				2D9EACC9202C453600FD17ED /* UIControl+CYLTabBarControllerExtention.m in Sources */,
 				2D05C600203BD79F003B9559 /* GCDAsyncSocket.m in Sources */,
+				2D9C2055204159F100330136 /* CWNetworkSettings.m in Sources */,
 				2DF1221A2011F707006EBDC4 /* CWPlaceHolder.m in Sources */,
 				2D1A2DEF2031E74300A65088 /* UIViewController+RESideMenu.m in Sources */,
 				2D1A2DF12031E74300A65088 /* RECommonFunctions.m in Sources */,
 				2DF121C22011B8ED006EBDC4 /* CWBaseViewController.m in Sources */,
+				2D9C20582041994700330136 /* CWNetworkService.m in Sources */,
 				2D05C5C6203AD054003B9559 /* AFNetworkReachabilityManager.m in Sources */,
 				2D1A2E082033E96E00A65088 /* CWSideMenuViewController.m in Sources */,
 				2D9EACC6202C453600FD17ED /* CYLPlusButton.m in Sources */,
@@ -803,9 +838,12 @@
 				2D1A2DEE2031E74300A65088 /* KxMenu.m in Sources */,
 				2D05C5C3203AD054003B9559 /* AFHTTPSessionManager.m in Sources */,
 				2DF121DE2011D184006EBDC4 /* CWTabBarController.m in Sources */,
+				2D9C205B20419E4E00330136 /* CWHttpClient.m in Sources */,
 				2DF121E72011D47F006EBDC4 /* CWBaseHomeViewController.m in Sources */,
+				2D9C20522041539900330136 /* CWResponse.m in Sources */,
 				2D9EACCC202C453600FD17ED /* UIViewController+CYLTabBarControllerExtention.m in Sources */,
 				2D05C601203BD79F003B9559 /* GCDAsyncUdpSocket.m in Sources */,
+				2D9C204F2041537D00330136 /* CWRequest.m in Sources */,
 				2D9EACCA202C453600FD17ED /* UITabBarItem+CYLTabBarControllerExtention.m in Sources */,
 				2D1A2DF02031E74300A65088 /* RESideMenu.m in Sources */,
 				2D05C5C7203AD054003B9559 /* AFSecurityPolicy.m in Sources */,
